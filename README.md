@@ -18,3 +18,9 @@ exactly the version string you want to use. For example
 If this file is not present, the latest version will be installed. The version
 of Diesel CLI used does not need to match the version of Diesel used by your
 application, as Diesel CLI is generally backwards compatible.
+
+Caching build results
+---------------------
+
+Specifying a Diesel version in `.diesel_version` also activates caching of the build
+results.
